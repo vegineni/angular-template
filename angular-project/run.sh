@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "TECHIO> open --port=4200 /"
+ng build
 
-ng serve
+echo "CG> open --static-dir /project/target/dist /index.html"
