@@ -6,7 +6,7 @@ The source code for this template is on [GitHub](https://github.com/CodinGame/an
 
 # Hands-on Demo
 
-@[Sample Angular App Boilerplate]({"stubs": ["run.sh"], "command": "/bin/bash -c 'chmod +x run.sh && ./run.sh'"})
+@[Sample Angular App Boilerplate]({"stubs": ["run.sh", "angular-cli.json"], "command": "/bin/bash -c 'chmod +x run.sh && ./run.sh'"})
 
 Check out the markdown file [`welcome.md`](https://github.com/CodinGame/angular-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
