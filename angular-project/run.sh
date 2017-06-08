@@ -1,5 +1,5 @@
 #!/bin/bash
 
-ng serve &
+echo "TECHIO> open --port=4200 /"
 
-echo "TECHIO> open --port=3000 /"
+ng serve
