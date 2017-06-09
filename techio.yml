@@ -14,4 +14,4 @@ projects:
     root: /angular-project # Set the root path to your angular project
 
     # Set the docker image. This image runs npm install for you on every build
-    runner: leonardal/node-gulp-runner
+    runner: codingame/node-angular-runner
