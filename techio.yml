@@ -1,4 +1,4 @@
-title : Angular
+title : Angular template
 
 # Table of content
 plan:
@@ -14,4 +14,4 @@ projects:
     root: /angular-project # Set the root path to your angular project
     buildCommand: "chmod +x build-image.sh && ./build-image.sh" # Run build phase script to install npm dependencies
     # Set the docker image. This image runs npm install for you on every build
-    runner: codingame/node-angular-runner
+    runner: techio/node-angular-runner
