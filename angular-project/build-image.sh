@@ -2,4 +2,4 @@
 
 cd /project/target
 
-npm install --max-old-space-size=400
+npm install --max-old-space-size=600
