@@ -14,4 +14,4 @@ projects:
     root: /angular-project # Set the root path to your angular project
     buildCommand: "chmod +x build-image.sh && ./build-image.sh" # Run build phase script to install npm dependencies
     # Set the docker image. This image runs npm install for you on every build
-    runner: techio/node-angular-runner
+    runner: techio/node-angular-runner:1.1.0-node-7.4
