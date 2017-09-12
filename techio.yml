@@ -1,16 +1,9 @@
-title : Angular template
-
-# Table of content
+title: Angular Project
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
-
-
-# Settings for your programming projects and the associated Docker images
+- title: Welcome
+  statement: markdowns/welcome.md
 projects:
   angular:
-    root: /angular-project # Set the root path to your angular project
-    # Set the docker image. This image runs npm install for you on every build
-    runner: techio/node-angular-runner
+    root: /angular-project
+    runner:
+      name: techio/node-angular-runner
